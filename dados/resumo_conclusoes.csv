@@ -1,0 +1,38 @@
+experimento,caso,criterio,resultado
+G1 AES avalanche (média e desvio),flip no texto,menor R indistinguível (±3σ),4
+G1 AES avalanche (média e desvio),flip no chave,menor R indistinguível (±3σ),3
+G1 AES SAC,flip no texto,"menor R com fração fora de 3σ ≤ 1% (aleatório ≈ 0,27%)",3
+G1 AES SAC,flip no chave,"menor R com fração fora de 3σ ≤ 1% (aleatório ≈ 0,27%)",3
+G1 Trivium avalanche (média),flip no iv,último N com |z|>3,392
+G1 Trivium avalanche (média),flip no iv,último N com |z|>4,389
+G1 Trivium avalanche (desvio),flip no iv,último N com |z|>4,332
+G1 Trivium avalanche (média),flip no chave,último N com |z|>3,433
+G1 Trivium avalanche (média),flip no chave,último N com |z|>4,428
+G1 Trivium avalanche (desvio),flip no chave,último N com |z|>4,350
+Item 3 avalanche,"texto, padrão",menor R indistinguível (±3σ),4
+Item 3 avalanche,"texto, MC na última",menor R indistinguível (±3σ),3
+Item 3 avalanche,"chave, padrão",menor R indistinguível (±3σ),3
+Item 3 avalanche,"chave, MC na última",menor R indistinguível (±3σ),3
+Bônus: integral (Square) no AES,padrao,último R em que o teste enxerga estrutura,3
+Bônus: integral (Square) no AES,com_MC_final,último R em que o teste enxerga estrutura,3
+Bônus: cube tester no Trivium,cubo de dimensão 10 (#0),"último N com |p̂−0,5|>4σ",635
+Bônus: cube tester no Trivium,cubo de dimensão 10 (#1),"último N com |p̂−0,5|>4σ",631
+Bônus: cube tester no Trivium,cubo de dimensão 10 (#2),"último N com |p̂−0,5|>4σ",640
+Bônus: cube tester no Trivium,cubo de dimensão 14 (#0),"último N com |p̂−0,5|>4σ",664
+Bônus: cube tester no Trivium,cubo de dimensão 14 (#1),"último N com |p̂−0,5|>4σ",682
+Bônus: cube tester no Trivium,cubo de dimensão 14 (#2),"último N com |p̂−0,5|>4σ",674
+Bônus: cube tester no Trivium,cubo de dimensão 18 (#0),"último N com |p̂−0,5|>4σ",671
+Bônus: cube tester no Trivium,cubo de dimensão 18 (#1),"último N com |p̂−0,5|>4σ",805
+Bônus: cube tester no Trivium,cubo de dimensão 18 (#2),"último N com |p̂−0,5|>4σ",692
+G2 aes (NIST subconjunto),reprovações totais,menor R com nº de reprovações ≤ esperado+4σ (≤24 de 1000),3
+G2 aes (NIST subconjunto),uniformidade dos p-valores,"menor R com uniformidade ≥ 0,0001 em todos os testes (exceto serial)",4
+G2 aes (NIST subconjunto),ambos os critérios,menor R,4
+G2 aes (NIST subconjunto),R = 1 (menor testado),nº de reprovações (esperado ≈ 11),921
+G2 trivium (NIST subconjunto),reprovações totais,menor N com nº de reprovações ≤ esperado+4σ (≤24 de 1000),0
+G2 trivium (NIST subconjunto),uniformidade dos p-valores,"menor N com uniformidade ≥ 0,0001 em todos os testes (exceto serial)",0
+G2 trivium (NIST subconjunto),ambos os critérios,menor N,0
+G2 trivium (NIST subconjunto),N = 0 (menor testado),nº de reprovações (esperado ≈ 11),16
+G2 trivium_ivcont (NIST subconjunto),reprovações totais,menor N com nº de reprovações ≤ esperado+4σ (≤24 de 1000),384
+G2 trivium_ivcont (NIST subconjunto),uniformidade dos p-valores,"menor N com uniformidade ≥ 0,0001 em todos os testes (exceto serial)",384
+G2 trivium_ivcont (NIST subconjunto),ambos os critérios,menor N,384
+G2 trivium_ivcont (NIST subconjunto),N = 0 (menor testado),nº de reprovações (esperado ≈ 11),931
